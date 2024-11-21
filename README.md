@@ -52,8 +52,9 @@ streamlit run app.py
 ```
 Access the application in your browser at http://localhost:8501.
 
-Project Structure
+## Project Structure
 
+```plaintext
 ml-metrics-tracker-frontend/
 ├── .env                # Environment variables
 ├── app.py              # Main Streamlit application entry point
@@ -61,45 +62,77 @@ ml-metrics-tracker-frontend/
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── venv/               # Virtual environment (not tracked in Git)
-Usage
+```
 
-Dataset Management
-Navigate to the "Datasets" section.
-Upload datasets and preprocess them as needed.
-Metrics Evaluation
-Select a dataset and model type.
-Click "Evaluate Metrics" to compute performance metrics.
-Save metrics using the "Save Metrics" button.
-Previous Results
-View a history of saved metrics for tracking performance over time.
-Known Issues
+# Usage
 
-API Connectivity: Ensure the backend services are running and reachable. Update the .env file if the backend URL changes.
-Dataset Upload Limits: Dataset size is limited by backend and network configurations.
-Browser Cache: Clear your browser cache if changes to the Streamlit app are not reflected.
-Future Enhancements
+## Dataset Management
+- Navigate to the **"Datasets"** section.
+- Upload datasets and preprocess them as needed.
 
-Improve UI/UX for a more seamless user experience.
-Add a dashboard to visualize metrics trends over time.
-Integrate user authentication for secure access.
-Contributing
+## Metrics Evaluation
+- Select a dataset and model type.
+- Click **"Evaluate Metrics"** to compute performance metrics.
+- Save metrics using the **"Save Metrics"** button.
+
+## Previous Results
+- View a history of saved metrics for tracking performance over time.
+
+---
+
+## Known Issues
+
+1. **API Connectivity**: Ensure the backend services are running and reachable. Update the `.env` file if the backend URL changes.
+2. **Dataset Upload Limits**: Dataset size is limited by backend and network configurations.
+3. **Browser Cache**: Clear your browser cache if changes to the Streamlit app are not reflected.
+
+---
+
+## Future Enhancements
+
+- Improve UI/UX for a more seamless user experience.
+- Add a dashboard to visualize metrics trends over time.
+- Integrate user authentication for secure access.
+
+---
+
+## Contributing
 
 We welcome contributions! Follow these steps to contribute:
 
-Fork the repository.
-Create a new branch: git checkout -b feature-name.
-Commit your changes: git commit -m "Add feature-name".
-Push to the branch: git push origin feature-name.
-Open a pull request.
-License
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
-Contact
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Contact
 
 For questions or support, contact:
 
-Developer Name: Your Name
-Repository: GitHub Repository
+- **Developer Name**: Your Name  
+- **Repository**: [GitHub Repository](https://github.com/your-repo)  
+
+---
+
+This `README.md` provides clear instructions for setup, usage, and contribution. Let me know if you'd like any modifications!
+
 
 This `README.md` provides clear instructions for setup, usage, and contribution. Let me know if you'd like any modifications!
