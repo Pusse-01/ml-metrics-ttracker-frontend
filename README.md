@@ -128,11 +128,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 For questions or support, contact:
 
 - **Developer Name**: Your Name  
-- **Repository**: [GitHub Repository](https://github.com/your-repo)  
+- **Repository**: [GitHub Repository]([https://github.com/your-repo](https://github.com/Pusse-01/ml-metrics-ttracker-frontend/))  
 
 ---
-
-This `README.md` provides clear instructions for setup, usage, and contribution. Let me know if you'd like any modifications!
-
 
 This `README.md` provides clear instructions for setup, usage, and contribution. Let me know if you'd like any modifications!
