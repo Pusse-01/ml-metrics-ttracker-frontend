@@ -29,19 +29,27 @@ Backend services must be running and accessible for API interaction. Refer to th
    ```bash
    git clone https://github.com/<your-repo>/ml-metrics-tracker-frontend.git
    cd ml-metrics-tracker-frontend
+   ```
 Create a Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate     # For Windows
+```
 Install Dependencies
+```
 pip install -r requirements.txt
+```
 Environment Variables Create a .env file in the root directory with the following:
 BACKEND_BASE_URL=http://127.0.0.1:8000  # Update based on your backend URL
+
 Running the Application
 
 Start the Streamlit application:
 
+```bash 
 streamlit run app.py
+```
 Access the application in your browser at http://localhost:8501.
 
 Project Structure
