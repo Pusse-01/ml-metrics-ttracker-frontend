@@ -108,7 +108,7 @@ def main():
             )
             dataset_id = dataset_options[selected_dataset_name]
             model_type = st.selectbox(
-                "Select Model Type", ["swin", "other_model"]
+                "Select Model Type", ["swin", "vit", "deit"]
             )  # Update with actual models
 
             if st.button("Evaluate Metrics"):
